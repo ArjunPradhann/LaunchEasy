@@ -1,0 +1,28 @@
+.GBMainDiv {
+  padding: 80px 350px;
+}
+
+.GBFirstTitle {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.GBSubTitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #6f6f6f;
+  margin-top: 16px;
+}
+
+.GBInputFieldSection {
+  display: flex;
+  height: 48px;
+  margin-top: 40px;
+  justify-content: center;
+}

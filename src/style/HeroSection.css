@@ -1,0 +1,45 @@
+.HeroSectionMain {
+  padding: 0 8%;
+  z-index: 2;
+  margin-top: 80px;
+  width: 65%;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+  height: 48px;
+}
+
+.ButtonStyle {
+  border: 1px solid #d0e2ff;
+  border-radius: 40px;
+  padding: 6px 12px;
+  height: 36px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeroSectionMainHeading {
+  color: #4589ff;
+  font-weight: 400;
+  font-size: 80px;
+}
+.HeroSectionSubHeading {
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.HSSubtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #525252;
+}
+
+.HSInputFieldSection {
+  display: flex;
+  height: 48px;
+  margin-top: 40px;
+}

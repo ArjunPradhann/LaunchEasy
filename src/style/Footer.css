@@ -1,0 +1,125 @@
+.FooterMainDiv {
+  background-color: #262626;
+  padding: 80px 120px;
+}
+.FirstSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SecondSection {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.FSubtitle {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a8a8a8;
+}
+.IconSection {
+  display: flex;
+  margin-top: 40px;
+}
+
+.HeadingStyle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 16px;
+  color: #6f6f6f;
+}
+
+.contentStyle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.NewsLetterSection {
+  background-color: #4589ff;
+  margin: 64px 0px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.NewsLetterInnerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NLLeftSide {
+  width: 45%;
+}
+.NLRightSide {
+  width: 45%;
+}
+
+.NLtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #6f6f6f;
+}
+
+.NLBIGtitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  margin-top: 8px;
+}
+
+.NLSubTitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a8a8a8;
+  margin-top: 8px;
+}
+
+.NLInputField {
+  display: flex;
+  margin-top: 20px;
+}
+
+.NLSubDes {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8d8d8d;
+  margin-top: 8px;
+}
+
+.NLLastDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+
+.NLFirst {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6f6f6f;
+}

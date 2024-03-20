@@ -1,0 +1,16 @@
+.HeaderMainDiv {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  border-bottom: 1px solid grey;
+}
+
+.HeaderLeftSide {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
