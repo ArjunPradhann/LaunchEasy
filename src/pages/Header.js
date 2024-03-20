@@ -18,7 +18,7 @@ function Header() {
       </div>
       <div className="HeaderLeftSide">
         {headers.map((data, idx) => (
-          <div style={{ marginRight: "32px" }}>
+          <div className="" style={{ marginRight: "32px" }}>
             {data.title}
             {data.icon && (
               <img
@@ -30,6 +30,9 @@ function Header() {
           </div>
         ))}
         <Button />
+      </div>
+      <div className="hamburgerSection">
+        <img src="/Hamburger.svg" alt="hamburger" />
       </div>
     </div>
   );

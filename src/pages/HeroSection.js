@@ -47,7 +47,7 @@ function HeroSection() {
           <TextField
             id="outlined-basic"
             placeholder="Enter your work email"
-            style={{ width: "400px", marginRight: "10px" }}
+            className="TextfieldStyle"
           />
           <Button />
         </div>
@@ -76,7 +76,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <ImageSection />
+      {/* <ImageSection /> */}
     </>
   );
 }

@@ -1,16 +1,36 @@
-.HeaderMainDiv {
-  height: 64px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 8%;
-  border-bottom: 1px solid grey;
-}
+@media screen and (min-width: 500px) {
+  .HeaderMainDiv {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    border-bottom: 1px solid grey;
+  }
 
-.HeaderLeftSide {
-  display: flex;
-  align-items: center;
-  font-family: Helvetica;
-  font-size: 16px;
-  font-weight: 400;
+  .HeaderLeftSide {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hamburgerSection {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .HeaderMainDiv {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 1px solid grey;
+    margin-top: 64px;
+  }
+
+  .HeaderLeftSide {
+    display: none;
+  }
 }

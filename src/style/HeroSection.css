@@ -1,3 +1,5 @@
+@media screen and (min-width: 500px) {
+}
 .HeroSectionMain {
   padding: 0 8%;
   z-index: 2;
@@ -42,4 +44,46 @@
   display: flex;
   height: 48px;
   margin-top: 40px;
+}
+
+.TextfieldStyle {
+  width: 400px !important;
+  margin-right: 10px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .HeroSectionMain {
+    max-width: 390px;
+    padding: 24px;
+  }
+  .ButtonStyle {
+    border: 1px solid #d0e2ff;
+    border-radius: 40px;
+    padding: 6px 10px;
+    height: 32px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .HeroSectionMainHeading {
+    color: #4589ff;
+    font-weight: 400;
+    font-size: 44px;
+    margin-top: 16px;
+  }
+  .HeroSectionSubHeading {
+    font-weight: 400;
+    font-size: 44px;
+  }
+  .HSSubtitle {
+    display: none;
+  }
+  .HSInputFieldSection {
+    display: block;
+  }
+  .TextfieldStyle {
+    max-width: 342px !important;
+    margin-right: 10px !important;
+  }
 }

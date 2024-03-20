@@ -12,7 +12,7 @@ function App() {
     <div>
       <Header />
       <HeroSection />
-      <div style={{ margin: "80px 40px" }}>
+      {/* <div style={{ margin: "80px 40px" }}>
         <MarketRec />
       </div>
       <div style={{ margin: "80px 120px" }}>
@@ -24,7 +24,7 @@ function App() {
       <div style={{ margin: "80px 40px" }}>
         <GoodBye />
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
